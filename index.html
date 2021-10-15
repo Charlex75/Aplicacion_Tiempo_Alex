@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+    <title>"Weather"</title>
+  </head>
+  <body>
+    <div class="cotainer-fluid">
+      <div class="row flex-nowrap">
+        <div class="card">
+          <div class="card-header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Sweet weather yeah!</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"
+                      ><i class="bi bi-house-door-fill"></i>Casa</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="bi bi-search"></i> Buscar</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      ><i class="bi bi-geo-alt-fill"></i> Localización</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="card-body">
+            <div class="row flex-nowrap">
+              <div class="card" id="main">
+                <div class="card-header">Your weather app</div>
+                <div class="card-body">
+                  <p class="card-text">Know the weather at all time</p>
+                </div>
+              </div>
+              <div class="card" id="search">
+                <div class="card-header">Search by city:</div>
+                <div class="card-body">
+                  <form class="form-horizontal">
+                    <fieldset>
+                      <div class="form-group">
+                        <div class="col-md-4">
+                          <input
+                            id="ciudad"
+                            name="searchinput"
+                            type="search"
+                            placeholder="City"
+                            class="form-control input-md"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-md-4">
+                          <button
+                            id="btnundia"
+                            name="singlebutton"
+                            class="btn btn-primary"
+                          >
+                            Actual
+                          </button>
+                          <button
+                            id="btntiempo"
+                            name="singlebutton"
+                            class="btn btn-primary"
+                          >
+                            Proximas
+                          </button>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                  <div id="result"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/tiempo.js"></script>
+  </body>
+</html>

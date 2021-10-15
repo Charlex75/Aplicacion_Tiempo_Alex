@@ -1,0 +1,27 @@
+nav {
+  background-color: &espacio !important;
+  button,
+  ul {
+    background-color: &espacio !important;
+  }
+}
+button {
+  background-color: $luz;
+}
+.card,
+.row {
+  background-color: $cielo;
+}
+.card-header {
+  background-color: $espacio;
+}
+li {
+  a {
+    font-family: $fuente;
+    color: $luz;
+  }
+}
+img {
+  max-width: 150px;
+  max-height: 150px;
+}

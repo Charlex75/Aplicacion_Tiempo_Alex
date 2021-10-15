@@ -1,0 +1,34 @@
+@import url(https://fonts.google.com/specimen/Architects+Daughter#standard-styles);
+nav {
+  background-color: nav espacio !important; }
+  nav button,
+  nav ul {
+    background-color: nav button, nav ul espacio !important; }
+
+button {
+  background-color: #fff826; }
+
+.card,
+.row {
+  background-color: #21b1d1; }
+
+.card-header {
+  background-color: #34249e; }
+
+li a {
+  font-family: "Architects Daughter", serif;
+  color: #fff826; }
+
+img {
+  max-width: 150px;
+  max-height: 150px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-weight: bold;
+  color: black;
+  font-family: "Architects Daughter", serif; }
