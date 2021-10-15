@@ -15,9 +15,10 @@ button {
 .card-header {
   background-color: #34249e; }
 
-li a {
+a {
   font-family: "Architects Daughter", serif;
-  color: #fff826; }
+  color: #fff826;
+  text-decoration: none; }
 
 img {
   max-width: 150px;
@@ -28,7 +29,8 @@ h2,
 h3,
 h4,
 h5,
-p {
+p,
+.card-header {
   font-weight: bold;
   color: black;
   font-family: "Architects Daughter", serif; }

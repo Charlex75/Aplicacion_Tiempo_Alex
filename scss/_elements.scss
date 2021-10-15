@@ -15,11 +15,10 @@ button {
 .card-header {
   background-color: $espacio;
 }
-li {
-  a {
-    font-family: $fuente;
-    color: $luz;
-  }
+a {
+  font-family: $fuente;
+  color: $luz;
+  text-decoration: none;
 }
 img {
   max-width: 150px;
