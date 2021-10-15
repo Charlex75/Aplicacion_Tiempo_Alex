@@ -10,11 +10,11 @@ function tiempoDelDia() {
     var result = "";
     var tiempo = response.weather[0];
     result +=
-      "<div class='card'><div class='row g-0><div class='col-5 col-sm-4'><img src='http://openweathermap.org/img/wn/" +
+      "<div class='card'><div class='row g-0'><div class='col-5 col-sm-4'><img src='http://openweathermap.org/img/wn/" +
       tiempo.icon +
-      "@2x.png' class='img-thumbnail'></div><div class='col-7 col-sm-8'><div class='card-body><h1 class='card-title'>" +
+      "@2x.png'></div><div class='col-7 col-sm-8'><div class='card-body><h1 class='card-title'>" +
       tiempo.description +
-      "</h1></div></div></div>";
+      "</h1></div></div></div></div>";
     $("#result").html(result);
   });
 }
@@ -32,11 +32,11 @@ function tiempoDe5Dias() {
     while (posi < 40) {
       var tiempo = response.list[posi].weather[0];
       result +=
-        "<div class='card'><div class='row g-0><div class='col-5 col-sm-4'><img src='http://openweathermap.org/img/wn/" +
+        "<div class='card'><div class='row g-0'><div class='col-5 col-sm-4'><img src='http://openweathermap.org/img/wn/" +
         tiempo.icon +
-        "@2x.png' class='img-thumbnail'></div><div class='col-7 col-sm-8'><div class='card-body><h1 class='card-title'>" +
+        "@2x.png'></div><div class='col-7 col-sm-8'><div class='card-body><h1 class='card-title'>" +
         tiempo.description +
-        "</h1></div></div></div>";
+        "</h1></div></div></div></div>";
       posi += 8;
     }
     $("#result").html(result);
