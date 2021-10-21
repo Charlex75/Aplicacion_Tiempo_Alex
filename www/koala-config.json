@@ -3,8 +3,8 @@
   // The mappings of source directory and output directory
   "mappings": [
     {
-      "src": "./assets/scss",
-      "dest": "./assets/css"
+      "src": "./asserts/scss",
+      "dest": "./asserts/css"
     }
   ],
 
